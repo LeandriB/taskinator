@@ -18,6 +18,8 @@ if (!taskNameInput || !taskTypeInput) {
     return false;
 }
 
+formEl.reset();
+
   // send it as an argument to createTaskEl
     createTaskEl(taskDataObj);
 };
